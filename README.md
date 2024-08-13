@@ -7,11 +7,12 @@ In today's digital age, ensuring the security of our online accounts is paramoun
 
 The function checkPasswordStrength assesses a password's strength by evaluating several factors:
 
-Length: A minimum length of 8 characters is required.
-Uppercase Letters: At least one uppercase letter is needed.
-Lowercase Letters: At least one lowercase letter is required.
-Numbers: The presence of at least one numeric digit is checked.
-Special Characters: The function looks for special characters or symbols.
+1. Length: A minimum length of 8 characters is required.
+2. Uppercase Letters: At least one uppercase letter is needed.
+3. Lowercase Letters: At least one lowercase letter is required.
+4. Numbers: The presence of at least one numeric digit is checked.
+5. Special Characters: The function looks for special characters or symbols.
+
 Based on these criteria, the function assigns a strength score and categorizes the password into one of five strength levels: Very Weak, Weak, Moderate, Strong, or Very Strong.
 
 **Code Structure**
@@ -26,9 +27,9 @@ The code is structured as follows:
 
 **Explanation of the Code:**
 
-Function Logic: The function begins by initializing a strength variable to zero. It then checks the password against each criterion, incrementing the strength for each condition met.
-Regular Expressions: The use of regular expressions (e.g., /[A-Z]/) allows for efficient checking of character types within the password.
-User Interaction: The prompt function collects user input, and the alert function displays the result, making the code interactive and user-friendly.
+1. Function Logic: The function begins by initializing a strength variable to zero. It then checks the password against each criterion, incrementing the strength for each condition met.
+2. Regular Expressions: The use of regular expressions (e.g., /[A-Z]/) allows for efficient checking of character types within the password.
+3. User Interaction: The prompt function collects user input, and the alert function displays the result, making the code interactive and user-friendly.
 
 **Conclusion**
 
